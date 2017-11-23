@@ -1,0 +1,183 @@
+body {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+h3 {
+  color: white;
+}
+
+/* header/logo */
+.header {
+  background-color: black;
+  color: white;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  width: 100%;
+}
+
+.header .container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header .container img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.header .container span {
+  font-size: 1rem;
+}
+
+/* banner */
+.banner {
+  background-image: url(../images/moto.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  height: 25rem;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
+.banner .container {
+  padding-top: 9rem;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.banner span {
+  font-size: 1rem;
+}
+
+.banner h1 {
+  padding-top: 0.25rem;
+  font-size: 2rem;
+}
+
+.text{
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem;
+}
+
+/* navigation */
+.nav-background {
+  display: inline-flex;
+  background-color: firebrick;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  padding: 0.75rem 0;
+}
+
+nav {
+  background-color: firebrick;
+  justify-content: space-around;
+  width: 960px;
+  display: inline-flex;
+}
+
+/*main content*/
+.content-background {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.content {
+  display: inline-flex;
+  width: 960px;
+  flex-direction: column;
+}
+
+/* product grid */
+.products {
+  margin: 3rem 0;
+  flex-direction: column;
+  width: 100%;
+}
+
+.products .container {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+}
+
+.products .image-text {
+  display: inline-flex;
+  flex-direction: column;
+  border: 4px solid black;
+  width: 30%;
+}
+
+.products img {
+  height: 9rem;
+  margin: 2rem;
+}
+
+.products h3 {
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: black;
+}
+
+/* location */
+.lower-banner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  width: 100%;
+}
+
+.lower-banner h3 {
+  padding: 1rem 2rem;
+  background-color: black;
+}
+
+.lower-banner p {
+  color: black;
+}
+
+.location {
+  display: inline-flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+/* hours */
+.hours {
+  display: inline-flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+/* footer */
+.footer-background {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  height: 5rem;
+  justify-content: center;
+}
+
+footer {
+  display: inline-flex;
+  align-items: center;
+  width: 960px;
+}
+
+/* Media queries */
+@@media only screen and (max-width: 480px;),
+(orientation: portait;) {
+  .banner {
+    height: 15rem;
+  }
+}
